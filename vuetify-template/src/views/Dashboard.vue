@@ -1,7 +1,7 @@
 <template>
-	<div>
-		Dashboard Page
-	</div>
+  <div>
+    Dashboard Page
+  </div>
 </template>
 
 <script>

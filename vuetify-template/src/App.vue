@@ -25,7 +25,7 @@
         />
       </div>
 
-      <v-spacer></v-spacer>
+      <v-spacer />
 
       <v-btn
         href="https://github.com/vuetifyjs/vuetify/releases/latest"
@@ -39,7 +39,7 @@
     <v-navigation-drawer app>
       <v-list-item>
         <v-list-item-content>
-          <v-list-item-title class="title">
+          <v-list-item-title class="text-h6">
             Application
           </v-list-item-title>
           <v-list-item-subtitle>
@@ -48,7 +48,7 @@
         </v-list-item-content>
       </v-list-item>
 
-      <v-divider></v-divider>
+      <v-divider />
 
       <v-list
         dense
@@ -71,7 +71,7 @@
       </v-list>
     </v-navigation-drawer>
     <v-main>
-      <router-view/>
+      <router-view />
     </v-main>
   </v-app>
 </template>
